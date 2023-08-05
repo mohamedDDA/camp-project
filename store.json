@@ -1,0 +1,220 @@
+{
+    "store": [
+        {
+            "name": "Xiaomi Mi 11",
+            "brand": "Xiaomi",
+            "price": 749,
+            "image": "https://m.media-amazon.com/images/I/41vZmjZTUXS._AC_UY218_.jpg",
+            "reviews": 15,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Xiaomi Mi 11 Lite",
+            "brand": "Xiaomi",
+            "price": 299,
+            "image": "https://m.media-amazon.com/images/I/61QXWXOjKAS._AC_UY218_.jpg",
+            "reviews": 8,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Xiaomi Redmi Note 10",
+            "brand": "Xiaomi",
+            "price": 199,
+            "image": "https://m.media-amazon.com/images/I/41uWBuDMsAL._AC_UY218_.jpg",
+            "reviews": 12,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Xiaomi Poco X3 Pro",
+            "brand": "Xiaomi",
+            "price": 249,
+            "image": "https://m.media-amazon.com/images/I/71BJz1Hyz6L._AC_UY218_.jpg",
+            "reviews": 5,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Apple iPhone 12 Pro Max",
+            "brand": "Apple",
+            "price": 1099,
+            "image": "https://m.media-amazon.com/images/I/510Fpe16MoL._AC_UY218_.jpg",
+            "reviews": 22,
+            "stars": 5,
+            "type": "phone"
+        },
+        {
+            "name": "Apple iPhone 12",
+            "brand": "Apple",
+            "price": 799,
+            "image": "https://m.media-amazon.com/images/I/613KzeDTHrS._AC_UY218_.jpg",
+            "reviews": 18,
+            "stars": 5,
+            "type": "phone"
+        },
+        {
+            "name": "Apple iPhone SE (2020)",
+            "brand": "Apple",
+            "price": 399,
+            "image": "https://m.media-amazon.com/images/I/81UhYiZH98L._AC_UY218_.jpg",
+            "reviews": 10,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Apple iPhone 11",
+            "brand": "Apple",
+            "price": 599,
+            "image": "https://m.media-amazon.com/images/I/611ovP2GkrL._AC_UY218_.jpg",
+            "reviews": 14,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Samsung Galaxy S21 Ultra",
+            "brand": "Samsung",
+            "price": 1199,
+            "image": "https://m.media-amazon.com/images/I/61O45C5qASL._AC_UY218_.jpg",
+            "reviews": 20,
+            "stars": 5,
+            "type": "phone"
+        },
+        {
+            "name": "Samsung Galaxy S21+",
+            "brand": "Samsung",
+            "price": 999,
+            "image": "https://m.media-amazon.com/images/I/718LuUVEOZL._AC_UY218_.jpg",
+            "reviews": 16,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Samsung Galaxy S20 FE",
+            "brand": "Samsung",
+            "price": 699,
+            "image": "https://m.media-amazon.com/images/I/71ZXHg7Oh6L._AC_UL400_.jpg",
+            "reviews": 9,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Samsung Galaxy A52",
+            "brand": "Samsung",
+            "price": 499,
+            "image": "https://m.media-amazon.com/images/I/71RxOftVoQL._AC_UY218_.jpg",
+            "reviews": 7,
+            "stars": 4,
+            "type": "phone"
+        },
+        {
+            "name": "Dell XPS 13",
+            "brand": "Dell",
+            "price": 1199,
+            "reviews": 12,
+            "stars": 5,
+            "image": "https://m.media-amazon.com/images/I/710+gleyyaL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "HP Spectre x360",
+            "brand": "HP",
+            "price": 1299,
+            "reviews": 8,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/519KZO0oXaL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Lenovo Yoga C940",
+            "brand": "Lenovo",
+            "price": 1399,
+            "reviews": 10,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/71ODdtYEiAL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Asus ZenBook UX425",
+            "brand": "Asus",
+            "price": 999,
+            "reviews": 6,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/71zAKORB6hL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "MacBook Pro",
+            "brand": "Apple",
+            "price": 1299,
+            "reviews": 14,
+            "stars": 5,
+            "image": "https://m.media-amazon.com/images/I/61bX2AoGj2L._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Surface Laptop 4",
+            "brand": "Microsoft",
+            "price": 999,
+            "reviews": 9,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/71zAKORB6hL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Acer Swift 5",
+            "brand": "Acer",
+            "price": 899,
+            "reviews": 7,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/71+1lOl1Y1L._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "HP Envy x360",
+            "brand": "HP",
+            "price": 1099,
+            "reviews": 6,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/71uu5WyCIIL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Lenovo IdeaPad 5 Pro",
+            "brand": "Lenovo",
+            "price": 1199,
+            "reviews": 8,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/61wgnuIJDEL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Dell Inspiron 15",
+            "brand": "Dell",
+            "price": 849,
+            "reviews": 5,
+            "stars": 3,
+            "image": "https://m.media-amazon.com/images/I/51koixRrxgS._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Asus ROG Zephyrus G14",
+            "brand": "Asus",
+            "price": 1499,
+            "reviews": 11,
+            "stars": 5,
+            "image": "https://m.media-amazon.com/images/I/71HQoR+26gL._AC_UY218_.jpg",
+            "type": "laptop"
+        },
+        {
+            "name": "Microsoft Surface Book 3",
+            "brand": "Microsoft",
+            "price": 1599,
+            "reviews": 9,
+            "stars": 4,
+            "image": "https://m.media-amazon.com/images/I/71seJBDOjmL._AC_UY218_.jpg",
+            "type": "laptop"
+        }
+    ]
+}

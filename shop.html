@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thecnos</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="cont">
+            <div class="logo">
+                <h2>Technos</h2>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html#Home">Home</a></li>
+                <li><a href="index.html#Categories">Categories</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="index.html#About">About</a></li>
+                <li><a href="index.html#Feedback">Feedback</a></li>
+                <li><a href="index.html#Contact">Contact</a></li>
+            </ul>
+
+            <ul class="icons">
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="saveL"><i class="fa-solid fa-heart savec">
+                    </i>
+                    <ul class="Saved">
+                    </ul>
+
+                </li>
+                <li class="shoping-cart"><i class="fa-solid fa-bag-shopping shop-icon"></i>
+                    <ul class="cart-list">
+                        <li class="buy-btn">
+                            <a href="#" class="btn-pure">Buy Now</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="darkModeToggle"><i class="fa-solid fa-moon"></i></li>
+                <li class="dropdown"><i class="fa-solid fa-bars drop-icon"></i>
+                    <ul class="drop-nav">
+                        <li><a href="index.html#Home">Home</a></li>
+                        <li><a href="index.html#Categories">Categories</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="index.html#About">About</a></li>
+                        <li><a href="index.html#Feedback">Feedback</a></li>
+                        <li><a href="index.html#Contact">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="shop-container">
+
+        <div class="info ">
+            <div class="categories">
+                <h4>CATAEGORIES</h4>
+
+                <ul>
+                    <li><input type="checkbox" name="" id="phone">Phone </li>
+                    <li><input type="checkbox" name="" id="laptop">Laptop </li>
+                    <li><input type="checkbox" name="" id="Accessories">Accessories </li>
+                    <li><input type="checkbox" name="" id="Games">Games </li>
+                </ul>
+            </div>
+            <div class="filter">
+                <div class="by-brand">
+                    <h4>Brand</h4>
+                    <ul>
+                        <li><input type="checkbox" name="" id="Xiaomi">Xiaomi </li>
+                        <li><input type="checkbox" name="" id="Apple">Apple </li>
+                        <li><input type="checkbox" name="" id="Lenovo">Lenovo </li>
+                        <li><input type="checkbox" name="" id="Samsung">Samsung </li>
+                        <li><input type="checkbox" name="" id="Asus">Asus </li>
+                        <li><input type="checkbox" name="" id="Microsoft">Microsoft </li>
+                        <li><input type="checkbox" name="" id="Dell">Dell </li>
+                    </ul>
+                </div>
+                <div class="by-rate">
+                    <h4>Rate</h4>
+                    <ul>
+                        <li id="stars-5" class="stars-filter " data-stars="5"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                        <li id="stars-4" class="stars-filter" data-stars="4"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li id="stars-3" class="stars-filter" data-stars="3"><i class="fa-solid fa-star stars"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+
+
+                <button type="submit">
+                    Search
+                </button>
+            </div>
+        </div>
+        <section id="Shop">
+            <div class="cont">
+                <div class="shop-cont">
+                    <div class="card" data-brand="apple" data-type="phone">
+                        <div class="image"><img src="https://m.media-amazon.com/images/I/510Fpe16MoL._AC_UY218_.jpg"
+                                alt=""></div>
+                        <div class="text">
+                            <div class="feedback">
+                                <div class="stars"><i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i></i></div>
+                                <div class="reviews">(22)</div>
+                            </div>
+                            <div class="name">Apple iPhone 12 Pro Max</div>
+                            <div class="price">1099$</div>
+                        </div>
+                        <div class="btns">
+                            <button class="add-to-cart">Add To Cart</button>
+                            <i class="far fa-heart save-icon" data-id="undefined"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-brand="apple" data-type="phone">
+                        <div class="image"><img src="https://m.media-amazon.com/images/I/613KzeDTHrS._AC_UY218_.jpg"
+                                alt=""></div>
+                        <div class="text">
+                            <div class="feedback">
+                                <div class="stars"><i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i></i></div>
+                                <div class="reviews">(18)</div>
+                            </div>
+                            <div class="name">Apple iPhone 12</div>
+                            <div class="price">799$</div>
+                        </div>
+                        <div class="btns">
+                            <button class="add-to-cart">Add To Cart</button>
+                            <i class="far fa-heart save-icon" data-id="undefined"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-brand="dell" data-type="laptop">
+                        <div class="image"><img src="https://m.media-amazon.com/images/I/710+gleyyaL._AC_UY218_.jpg"
+                                alt=""></div>
+                        <div class="text">
+                            <div class="feedback">
+                                <div class="stars"><i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i></i></div>
+                                <div class="reviews">(12)</div>
+                            </div>
+                            <div class="name">Dell XPS 13</div>
+                            <div class="price">1199$</div>
+                        </div>
+                        <div class="btns">
+                            <button class="add-to-cart">Add To Cart</button>
+                            <i class="fas fa-heart save-icon" data-id="undefined"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="open-icon"><i class="fa-solid fa-sliders"></i></div>
+    </div>
+
+    <footer class="mt-0">
+        <div class="cont">
+
+            <div class="footer-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="index.html">Terms Of Use</a></li>
+                    <li><a href="index.html">FAQ</a></li>
+                    <li><a href="index.html">Cart</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Quick Link</h3>
+                <ul>
+                    <li><a href="index.html#Categories">Categories</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="index.html#About">About</a></li>
+                    <li><a href="index.html#Contact">Contact</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Account</h3>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Login / Register</a></li>
+                    <li><a href="#">Saved</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d443.6428831509315!2d31.192554690412063!3d27.183239941659828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14450bf371aa95cf%3A0x38e70e23d91ce724!2z2KPYsdin2YXZg9izINmE2YTYtNit2YYgLSDYo9iz2YrZiNi32IwgNTVNUis3WEfYjCDYtNin2LHYuSDYqtmC2LPZitmFINin2YTYqNiq2LHZiNmEIC0g2YXYqtmB2LHYuSDZhdmGINi02KfYsdi5INin2YTZh9mE2KfZhNmJIC0g2KjYsdisINiz2LHYp9mJINin2YTYqNin2LHZiNiv2YnYjCDYqtmC2LPZitmFINin2YTYqNiq2LHZiNmE2Iwg2KPYs9mK2YjYtw!3m2!1d27.183198599999997!2d31.1924535!5e0!3m2!1sar!2seg!4v1685439362001!5m2!1sar!2seg"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 Your Tours Agency. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="shop.js"></script>
+</body>
+
+</html>
